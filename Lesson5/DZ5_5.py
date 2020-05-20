@@ -1,6 +1,6 @@
 from random import random
 
-# Генерируем случайные числа и записываем в файл
+# Генерируем 50 случайных чисел в диапазоне от 0 до 10 и записываем в файл
 with open('file.txt', 'w', encoding='utf-8') as f:
     for i in range(50):
         f.write(f"{str(random() * 10)} ")

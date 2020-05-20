@@ -1,8 +1,8 @@
 import json
 
-firm_dict = {} # Словарь с фирмами
-income = 0 # Суммарная прибыль (без учета фирм с убытками)
-num = 0 # Количество фирм
+firm_dict = {}  # Словарь с фирмами
+income = 0  # Суммарная прибыль (без учета фирм с убытками)
+num = 0  # Количество фирм
 with open("file.txt", encoding='utf-8') as f_in:
     for line in f_in:
         firm = line.split()
